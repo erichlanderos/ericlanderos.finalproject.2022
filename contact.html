@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+			Author: Eric Landeros
+			Date: 05/06/2022
+			Purpose: Blog Page
+		-->
+		<title>Welcome to Menterest Blog Page</title>
+		
+		<!--How to include an external style sheet-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		
+	</head>
+	<body>
+		<header>
+			<a href="index.html"     title="This is the homepage">
+				<img src="images/logo.png"/>
+			</a>	
+			<h1>Menterest</h1>
+			<h2>Contact Information</h2>
+			
+
+		</header>
+		<nav>
+			<!--Navigation will be consistent across all pages
+				sports.html
+				hobby.html
+				humor.html
+				contact.html
+			-->
+			<ul id="navList">
+				<li class="OddListItem">
+					<a href="index.html"    title="This is the homepage">Home</a>
+				</li>
+				<li class="EvenListItem">
+					<a href="sports.html"   title="This page contains sports">Sports</a>
+				</li>
+				<li class="OddListItem">
+					<a href="hobbies.html"    title="This page contains hobbies">Hobbies</a>
+				</li>
+				<li class="EvenListItem">
+					<a href="humor.html"     title="This page contains humor">Humor</a>
+				</li>
+				<li class="OddListItem">
+					<a href="contact.html"  title="This page contains contact information">Contact Us</a>
+				</li>
+		
+			</ul>
+		
+		<nav>
+		
+		<img src="images/contact_logo.png"/>
+		
+		<section>
+				<!--Map of business-->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4681.377947227913!2d-92.58962829738476!3d37.07292464262639!2m3!1f0!2f38.46666023980429!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x87cff98019de585f%3A0x93f8cdbfe9a3e2d6!2sMansfield%2C+MO+65704!5e1!3m2!1sen!2sus!4v1525968293079" 
+					width="600"
+					height="450"
+					frameborder="0"
+					style="border:0"
+					allowfullscreen>
+				</iframe>
+			<h4>Contact Us in the town of Mansfield, MO</h4>
+			<h5>
+			Address: 111 W Parksquare, Mansfield, MO 65704
+			Hours: Open ⋅ Closes 3PM
+			Phone: (417) 924-4041
+			</h5>
+			<form action="contact.html" method="post">
+			<label for="txtName">Enter Name:</label>
+			<input type="text" size="30" name="txtName" id="txtName"/>
+			<br/>
+			<textarea rows="20" cols="200">
+			</textarea>
+			<br/>
+			
+			<input type="submit" name="Submit" id="btnSubmit" value="Submit"/>
+			<input type="reset" name="Reset" id="btnReset" value="Reset"/>
+			
+		</section>
+		<footer>
+				<h6>
+					<a href="mailto:eric.landeros@outlook.com?subject=WebSite Contact">Eric Landeros</a> <br/>INFOTC-1000-01
+					<br/>
+					Website Project
+				</h6>
+		
+		</footer>
+			
+
+
+	</body>
+</html>
